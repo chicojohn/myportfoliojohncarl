@@ -1,0 +1,496 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+
+    <link
+      rel="stylesheet"
+      href="./uicons-solid-rounded/css/uicons-solid-rounded.css"
+    />
+
+    <link rel="stylesheet" href="head1.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+    <title>PORTFOLIO</title>
+  </head>
+
+  <style>
+    body {
+      font-family: "AvenirNext LT Pro Regular";
+      background-image: url("img/back.png");
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+    }
+    nav {
+      background-color: #ffffff00;
+      color: rgb(0, 0, 0);
+      text-align: left;
+      padding: 10px;
+    }
+
+    nav ul {
+      list-style-type: none;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      gap: 30px;
+      margin: 0;
+    }
+
+    nav li {
+      cursor: pointer;
+    }
+
+    .navitem {
+      text-decoration: none;
+      color: black;
+    }
+
+    .navitem:hover {
+      text-decoration: underline;
+      color: black;
+    }
+
+    #hamburger {
+      display: none;
+      cursor: pointer;
+      color: black;
+    }
+
+    .card {
+      color: rgb(0, 0, 0);
+      border-radius: 24px;
+
+      margin: auto;
+    }
+
+    .civi {
+      font-weight: 100;
+    }
+    .vl {
+      border-left: 2px solid rgb(0, 0, 0);
+      height: 140px;
+      text-align: center;
+      margin-left: 10px;
+    }
+
+    .vls {
+      border-left: 6px solid rgb(0, 0, 0);
+      height: 400px;
+      text-align: center;
+      margin-left: 10px;
+    }
+
+    @media only screen and (max-width: 600px) {
+      nav ul {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        display: none;
+      }
+
+      nav ul.show {
+        display: flex;
+        background-color: white;
+        color: black;
+        height: 300px;
+      }
+
+      nav li {
+        margin-bottom: 10px;
+      }
+
+      #hamburger {
+        display: block;
+      }
+
+      .john {
+        font-size: 30px;
+      }
+
+      .iconheeh li {
+        display: flex;
+      }
+      .personal {
+        font-size: 12px;
+        width: 100%;
+      }
+      .civi {
+        text-align: left;
+        font-weight: 100;
+      }
+    }
+  </style>
+  <body>
+    <nav style="z-index: 99999" class="fixed-top">
+      <div id="hamburger">&#9776;</div>
+      <ul>
+        <li><a class="navitem" href="#home">Home</a></li>
+        <li><a class="navitem" href="#personal">Personal</a></li>
+        <li><a class="navitem" href="#services">Services</a></li>
+        <li><a class="navitem" href="#educ">Education</a></li>
+        <li><a class="navitem" href="#skills">Skills</a></li>
+      </ul>
+    </nav>
+
+    <section class="header1" id="home">
+      <div class="parent container">
+        <div class="div1">
+          <div class="row">
+            <div class="col-sm-1">
+              <div class="vl"></div>
+              <i
+                class="bi bi-facebook iconsHead"
+                style="color: black; font-size: 30px; margin-right: 130px"
+              ></i>
+
+              <i
+                class="bi bi-twitter iconsHead"
+                style="color: black; font-size: 30px; margin-right: 130px"
+              ></i>
+
+              <i
+                class="bi bi-instagram iconsHead"
+                style="color: black; font-size: 30px; margin-right: 130px"
+              ></i>
+              <div class="vl"></div>
+            </div>
+            <div class="col-sm-9">
+              <h1 class="john">JOHN CARL CHICO</h1>
+              <span class="future">Web Developer </span> <br />
+              <button class="btn btnhead">Explore</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="div2">
+          <img class="imgs" src="./img/j.png" alt="" srcset="" />
+        </div>
+      </div>
+    </section>
+
+    <section
+      id="personal"
+      class="container-fluid"
+      style="
+        background-color: rgba(0, 0, 0, 0);
+        height: 100%;
+        color: rgb(0, 0, 0);
+        padding: 30px;
+      "
+    >
+      <div class="container-fluid">
+        <br />
+        <br />
+        <div class="row" style="justify-content: center">
+          <div class="col-md-auto">
+            <img src="./img/jc.png" class="imageko" alt="" srcset="" />
+          </div>
+          <div class="vlsInpersonal"></div>
+          <div class="col-md-auto" class="infoPersonal">
+            <h5 class="aboutme">Personal</h5>
+            <div class="row detailsInSection2">
+              <div class="col-md-auto">
+                <label for=""><b>Name:</b> </label> John Carl Chico <br />
+                <label for=""><b>Profile:</b></label> Student<br />
+                <label for=""><b>Email:</b></label>
+                chicojohn0630@gmail.com<br />
+              </div>
+              <div class="col-md-auto">
+                <label for=""><b>Phone:</b></label> (63+) 9273580167<br />
+                <label for=""><b>Address: </b></label> Mangayao Bayambang
+                Pangasinan
+                <br />
+                <label for=""><b>Gender:</b></label> Male <br />
+              </div>
+            </div>
+            <div class="aboutgroup">
+              <h5 class="aboutme">About me</h5>
+
+              <p class="descriptionInPersonal">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dicta
+                quis voluptates vitae dolores! Lorem, ipsum dolor sit amet
+                consectetur adipisicing elit. Dicta quis voluptates vitae
+                dolores!Lorem, ipsum dolor sit amet consectetur adipisicing
+                elit. Dicta quis voluptates vitae dolores!
+              </p>
+            </div>
+            <div class="socialInPersonal">
+              <h5 class="aboutme">Social</h5>
+
+              <i
+                class="bi bi-facebook iconsInsection2"
+                style="font-size: 20px"
+              ></i>
+              &nbsp;
+              <p class="linkInFB">https://www.facebook.com/castiel0978/</p>
+
+              <br />
+
+              <i
+                class="bi bi-instagram iconsInsection2"
+                style="font-size: 20px"
+              ></i>
+              &nbsp;
+              <p class="linkInFB">https://www.facebook.com/castiel0978/</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div
+      id="services"
+      class="container-fluid header3"
+      style="
+        background-color: rgba(255, 255, 255, 0);
+        height: 100%;
+        font-weight: 900;
+        color: rgb(0, 0, 0);
+        text-align: center;
+        padding: 30px;
+      "
+    >
+      <br />
+      <br />
+      <br />
+      <h5 class="serviceCLass">Services</h5>
+      <div class="row rowinService">
+        <div class="col-lg-4 col-md-4 mb-2">
+          <div class="col cards">
+            <i class="bi bi-code" style="font-size: 50px"></i>
+            <br />
+            <h5 class="titleServices">Website Development</h5>
+            <p
+              style="
+                text-align: center;
+                font-weight: 100;
+                text-align: justify;
+                text-justify: inter-word;
+              "
+            >
+              Knowledgeable in website development in business, portfolio, and
+              landing page.
+            </p>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-4 mb-2">
+          <div class="col cards">
+            <i class="bi bi-laptop" style="font-size: 50px"></i>
+            <br />
+            <h5 class="titleServices">Website Design</h5>
+            <p
+              style="
+                text-align: center;
+                font-weight: 100;
+                text-align: justify;
+                text-justify: inter-word;
+              "
+            >
+              Knowledgeable in visualizing the content and the design, color,
+              fonts, and responsiveness.
+            </p>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-4 mb-2">
+          <div class="col cards">
+            <i class="bi bi-bounding-box-circles" style="font-size: 50px"></i>
+            <br />
+            <h5 class="titleServices">UI/UX</h5>
+
+            <p
+              style="
+                text-align: center;
+                font-weight: 100;
+                text-align: justify;
+                text-justify: inter-word;
+              "
+            >
+              Knowledgeable in creating prototype in website and application
+              using figma.
+            </p>
+          </div>
+        </div>
+      </div>
+      <br />
+    </div>
+
+    <div
+      id="educ"
+      class="container-fluid education"
+      style="
+        background-color: rgba(255, 255, 255, 0);
+        height: 100%;
+        font-weight: 900;
+        color: rgb(0, 0, 0);
+
+        padding: 30px;
+      "
+    >
+      <br />
+      <br />
+      <br />
+      <h4 class="titlaInfo" style="text-align: center">
+        EDUCATIONAL BACKGROUND
+      </h4>
+
+      <br />
+      <div class="row container personal" style="margin: auto">
+        <div class="col" style="text-align: left">
+          <label class="levelMain"><b>Tertiary</b></label>
+        </div>
+        <div class="col civi">
+          Pangasinan State University Bayambang, Pangasinan 2nd Year Student
+          /Present
+        </div>
+      </div>
+
+      <br />
+
+      <div class="row container personal" style="margin: auto">
+        <div class="col" style="text-align: left">
+          <label class="levelMain"><b>Secondary</b></label>
+        </div>
+        <div class="col civi">
+          Bayambang National High School–Senior High School Bayambang,
+          Pangasinan S.Y. 2018-2020
+
+          <br />
+          <br />
+          Bayambang National High School Bayambang, Pangasinan
+          <br />
+          S.Y. 2011-2017
+        </div>
+      </div>
+
+      <br />
+
+      <div class="row container personal" style="margin: auto">
+        <div class="col civi">
+          <label class="levelMain"><b>Primary</b></label>
+        </div>
+        <div class="col civi">
+          Buenlag Elementary School Bayambang, Pangasinan
+          <br />
+          S.Y. 2005-2011
+        </div>
+      </div>
+    </div>
+    <br /><br />
+    <div
+      id="skills"
+      class="skills"
+      style="
+        background-color: rgba(255, 255, 255, 0);
+        height: 100%;
+        font-weight: 900;
+        color: rgb(0, 0, 0);
+        margin-top: 10%;
+        margin-bottom: 10%;
+      "
+    >
+      <h4 class="titlaInfo" style="text-align: center">SKILLS</h4>
+      <div class="container">
+        <div class="row" style="margin: auto">
+          <div class="col">
+            <label for="">HTML</label>
+            <div class="w3-light-grey w3-round">
+              <div class="w3-container w3-round w3-black" style="width: 100%">
+                100%
+              </div>
+            </div>
+            <br />
+
+            <label for="">CSS</label>
+            <div class="w3-light-grey w3-round">
+              <div class="w3-container w3-round w3-black" style="width: 90%">
+                90%
+              </div>
+            </div>
+
+            <br />
+
+            <label for="">JAVASCRIPT</label>
+            <div class="w3-light-grey w3-round">
+              <div class="w3-container w3-round w3-black" style="width: 10%">
+                10%
+              </div>
+            </div>
+
+            <br />
+
+            <label for="">PYTHON</label>
+            <div class="w3-light-grey w3-round">
+              <div class="w3-container w3-round w3-black" style="width: 90%">
+                90%
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <label for="">PHP</label>
+            <div class="w3-light-grey w3-round">
+              <div class="w3-container w3-round w3-black" style="width: 25%">
+                25%
+              </div>
+            </div>
+            <br />
+
+            <label for="">MYSQL</label>
+            <div class="w3-light-grey w3-round">
+              <div class="w3-container w3-round w3-black" style="width: 70%">
+                70%
+              </div>
+            </div>
+
+            <br />
+
+            <label for="">JAVA</label>
+            <div class="w3-light-grey w3-round">
+              <div class="w3-container w3-round w3-black" style="width: 50%">
+                50%
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        document
+          .getElementById("hamburger")
+          .addEventListener("click", function () {
+            const navList = document.querySelector("nav ul");
+            navList.classList.toggle("show");
+          });
+      });
+    </script>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

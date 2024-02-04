@@ -1,0 +1,227 @@
+.header1{
+    color:rgb(0, 0, 0);
+    margin-top: 10%;
+      margin-bottom:10%;
+
+    
+}
+
+
+
+.john{
+    font-size: 35px;
+    text-align: left;
+    font-weight: bolder;
+    margin-top:100px;
+    margin-left:50px;
+    font-family:'AvenirNext LT Pro Regular';
+}
+
+.btnhead{
+  background-color: black;
+  color: white;
+  margin-left: 50px;
+  margin-top: 20px;
+  border: 1px solid black;
+}
+
+.btnhead:hover{
+  background-color: white;
+  color: black;
+}
+
+.titlaInfo{
+    font-size: 30px;
+    font-weight: 900;
+}
+
+.future{
+    text-align: left;
+    font-weight: bolder;
+    margin-left: 50px
+}
+
+
+.imgs{
+    width: 400px;
+    height: 30rem;
+     
+   
+}
+
+.parent {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+}
+
+.div1 {
+    grid-area: 1 / 1 / 2 / 2;
+    margin: auto;
+  
+}
+
+.div2 {
+    grid-area: 1 / 2 / 2 / 3;
+    margin: auto;
+}
+
+.personal{
+  width: 60%;
+}
+
+.imageko{
+  height: 480px;
+}
+
+
+ 
+
+ .header3 {
+   margin: auto;
+ }
+
+ .aboutme{
+  font-size: 20px;
+  font-weight: 900;
+ }
+
+
+ .infoPersonal{
+  text-align: left;
+  margin-left: 30px;
+  background-color: aliceblue;
+
+   
+ }
+
+ .titleServices{
+  font-weight: 900;
+ }
+
+ .descriptionInPersonal {
+  width: 600px;
+    text-align: justify;
+    text-justify: inter-word;
+ }
+
+ .vlsInpersonal{
+  height: 480px;
+  border: 1px solid black;
+ }
+
+
+ .cards{
+  border-radius: 1px;
+  margin: auto;
+    background-color: rgb(255, 255, 255);
+    color: black;
+    padding: 30px;
+    width: 300px;
+ }
+
+ .serviceCLass{
+  font-size: 30px;
+    font-weight: 900
+ }
+
+
+ .rowinService{
+  width: 100%; 
+  margin: auto;
+  margin-top: 70px;
+ }
+
+
+
+
+ @media only screen and (max-width: 600px) {
+    .header1{
+      width:100%;
+    }
+    .vl{
+      display: none;
+    }
+    .john{
+      width: 100%;
+      font-size: 26px;
+    }
+    .future{
+      font-size: 10px;
+    }
+    .imgs{
+      display: none;
+    }
+    .iconsHead{
+      display: none;
+    }
+
+    /* end of personal */
+
+
+    .imageko{
+      display: none;
+    }
+    .vlsInpersonal{
+      display: none;
+    }
+    .aboutme{
+      font-size: 20px;
+    }
+    .detailsInSection2{
+      font-size: 10px;
+    }
+    .descriptionInPersonal{
+      font-size: 10px;
+      width: 100%;
+    }
+
+    .socialInPersonal{
+      font-size: 20px;
+
+    }
+    .iconsInsection2{
+      font-size: 10px;
+    }
+    .linkInFB{
+      font-size: 12px;
+    }
+
+
+    /* end in section 2 */
+
+    .serviceCLass{
+      font-size: 20px;
+    }
+
+    /* end in section 3  */
+
+    .titlaInfo{
+      font-size: 20px;
+    }
+    .civi{
+      width: 100%;
+    }
+
+    .levelMain{
+      font-weight: bold;
+    }
+
+     
+  
+
+ }
+
+ .civi{
+  text-align: left;
+   
+ }
+
+     .levelMain {
+       text-align: left;
+       font-weight: bold;
+     }
+
+

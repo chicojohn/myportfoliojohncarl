@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Responsive Navbar</title>
+  </head>
+  <style>
+    /* Reset some default styles */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    /* Style the navbar */
+    body {
+      font-family: Arial, sans-serif;
+    }
+
+    header {
+      background-color: #333;
+    }
+
+    nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      height: 60px;
+    }
+
+    .logo {
+      color: #fff;
+      font-size: 24px;
+      padding: 0 20px;
+    }
+
+    .nav-menu {
+      display: flex;
+      list-style-type: none;
+      margin-right: 20px;
+    }
+
+    .nav-menu li a {
+      color: #fff;
+      text-decoration: none;
+      padding: 8px 16px;
+      display: block;
+    }
+
+    .nav-menu li a:hover {
+      background-color: #555;
+    }
+
+    /* Responsive styles */
+    @media (max-width: 768px) {
+      .nav-menu {
+        display: none;
+      }
+
+      .nav-toggle {
+        display: block;
+      }
+
+      .nav-toggle:checked + .nav-menu {
+        display: block;
+      }
+
+      .nav-toggle-label {
+        display: block;
+        cursor: pointer;
+        padding: 8px 16px;
+        background-color: #333;
+      }
+
+      .nav-toggle-label span {
+        display: block;
+        width: 24px;
+        height: 2px;
+        background-color: #fff;
+        margin: 4px 0;
+      }
+    }
+  </style>
+  <body>
+    <header>
+      <nav>
+        <input type="checkbox" id="nav-toggle" />
+        <div class="logo">Logo</div>
+        <ul class="nav-menu">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Services</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+        <label for="nav-toggle" class="nav-toggle-label">
+          <span></span>
+        </label>
+      </nav>
+    </header>
+  </body>
+</html>
